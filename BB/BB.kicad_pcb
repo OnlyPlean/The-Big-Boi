@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 234)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -1142,7 +1142,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5CAF4781)
-    (at 409.737001 187.514001)
+    (at 429.407001 137.884001)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5CAFE031)
@@ -1178,7 +1178,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5CAF4792)
-    (at 414.147001 187.514001)
+    (at 433.817001 137.884001)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5CAFF9B8)
@@ -1214,7 +1214,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5CAF47A3)
-    (at 418.557001 187.514001)
+    (at 438.227001 137.884001)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5CB0126F)
@@ -1250,7 +1250,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5CAF47B4)
-    (at 422.967001 187.514001)
+    (at 442.637001 137.884001)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5CB01275)
@@ -6154,7 +6154,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5CAF528C)
-    (at 149.54 87.49 90)
+    (at 149.51 80.47 90)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5CB3FDE1)
@@ -10232,7 +10232,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5CAF5D6B)
-    (at 147.03 93.0275 90)
+    (at 147 86.0075 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5CAF5B71)
@@ -10268,7 +10268,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5CAF5D7C)
-    (at 143.68 93.0775 90)
+    (at 143.65 86.0575 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5CAF411C)
@@ -10548,7 +10548,7 @@
   )
 
   (module random-keyboard-parts:Molex-0548190589 (layer F.Cu) (tedit 5C494815) (tstamp 5CAF5E22)
-    (at 146.29 77.69 270)
+    (at 146.26 70.67 270)
     (path /5CB3B096)
     (attr smd)
     (fp_text reference USB0 (at 2.032 0) (layer F.SilkS)
@@ -10638,5 +10638,14 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 28.710543 74.628422) (end 28.64 203.11) (layer F.SilkS) (width 0.12) (tstamp 5CB15E88))
+  (gr_line (start 473.22 74.49) (end 473.149457 202.971578) (layer F.SilkS) (width 0.12) (tstamp 5CB15E53))
+  (gr_line (start 34.378422 208.769457) (end 467.49 208.71) (layer F.SilkS) (width 0.12) (tstamp 5CB15DCD))
+  (gr_arc (start 467.49 203.05) (end 467.49 208.71) (angle -90.79388609) (layer F.SilkS) (width 0.12) (tstamp 5CB15DCA))
+  (gr_arc (start 34.3 203.11) (end 28.64 203.11) (angle -90.79388609) (layer F.SilkS) (width 0.12) (tstamp 5CB15DC7))
+  (gr_line (start 467.481578 68.830543) (end 34.37 68.89) (layer F.SilkS) (width 0.12) (tstamp 5CB15D6E))
+  (gr_arc (start 34.37 74.55) (end 34.37 68.89) (angle -90.79388609) (layer F.SilkS) (width 0.12) (tstamp 5CB15D2A))
+  (gr_arc (start 467.56 74.49) (end 473.22 74.49) (angle -90.79388609) (layer F.SilkS) (width 0.12))
 
 )
