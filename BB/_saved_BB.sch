@@ -4166,9 +4166,16 @@ F 3 "" H 8420 5630 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8570 7010 8570 5680
-Connection ~ 8570 4285
-Connection ~ 8570 5680
+	8570 7010 8570 5735
 Wire Wire Line
-	8570 5680 8570 4285
+	8570 5735 8695 5735
+Wire Wire Line
+	8695 5735 8695 5540
+Wire Wire Line
+	8695 5540 8570 5540
+Wire Wire Line
+	8570 5540 8570 4285
+Connection ~ 8570 4285
+Wire Wire Line
+	9790 6320 9785 6320
 $EndSCHEMATC

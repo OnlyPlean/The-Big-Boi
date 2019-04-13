@@ -2658,17 +2658,6 @@ F 3 "" H 14160 5625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrids:MX-1.75U MX67
-U 1 1 5CCE5F08
-P 8445 5655
-F 0 "MX67" H 8531 5872 60  0000 C CNN
-F 1 "MX-1.75U" H 8531 5798 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.75U" H 8420 5630 60  0001 C CNN
-F 3 "" H 8420 5630 60  0001 C CNN
-	1    8445 5655
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrids:MX-2.25U MX79
 U 1 1 5CCE0644
 P 12975 5655
@@ -3145,15 +3134,9 @@ Connection ~ 7835 3600
 Text GLabel 7835 3140 1    50   Input ~ 0
 COL3
 Wire Wire Line
-	8570 4285 8570 5680
-Wire Wire Line
 	8570 7010 8540 7010
-Connection ~ 8570 5680
-Wire Wire Line
-	8570 5680 8570 7010
 Wire Wire Line
 	8570 4285 8570 3600
-Connection ~ 8570 4285
 Wire Wire Line
 	8570 3600 8570 3155
 Connection ~ 8570 3600
@@ -3167,7 +3150,6 @@ Wire Wire Line
 	8620 5630 8620 4980
 Wire Wire Line
 	8620 4980 8615 4980
-Connection ~ 8620 5630
 Wire Wire Line
 	8620 4980 8620 4725
 Wire Wire Line
@@ -4113,4 +4095,85 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 4185 4110 50
 	1    4185 4110
 	1    0    0    -1  
 $EndComp
+Text GLabel 4785 4410 2    50   Input ~ 0
+COL0
+Text GLabel 4785 4510 2    50   Input ~ 0
+COL1
+Text GLabel 4785 4610 2    50   Input ~ 0
+COL2
+Text GLabel 4785 4710 2    50   Input ~ 0
+COL3
+Text GLabel 4785 4810 2    50   Input ~ 0
+COL4
+Text GLabel 4785 4910 2    50   Input ~ 0
+COL5
+Text GLabel 4785 3110 2    50   Input ~ 0
+COL6
+Text GLabel 4785 3010 2    50   Input ~ 0
+COL7
+Text GLabel 4785 2910 2    50   Input ~ 0
+COL8
+Text GLabel 4785 2810 2    50   Input ~ 0
+COL9
+Text GLabel 4785 2710 2    50   Input ~ 0
+COL10
+Text GLabel 4785 2610 2    50   Input ~ 0
+COL11
+Text GLabel 4785 2510 2    50   Input ~ 0
+COL12
+Text GLabel 4785 2410 2    50   Input ~ 0
+COL13
+Text GLabel 3585 5810 0    50   Input ~ 0
+COL14
+Text GLabel 3585 5710 0    50   Input ~ 0
+COL15
+Text GLabel 3585 5610 0    50   Input ~ 0
+COL16
+Text GLabel 3585 5510 0    50   Input ~ 0
+COL17
+Text GLabel 3585 5410 0    50   Input ~ 0
+COL18
+Text GLabel 3585 5310 0    50   Input ~ 0
+COL19
+Text GLabel 3585 5210 0    50   Input ~ 0
+COL20
+Text GLabel 3585 5110 0    50   Input ~ 0
+COL21
+Text GLabel 4785 5110 2    50   Input ~ 0
+ROW0
+Text GLabel 4785 5210 2    50   Input ~ 0
+ROW1
+Text GLabel 4785 5310 2    50   Input ~ 0
+ROW2
+Text GLabel 4785 5410 2    50   Input ~ 0
+ROW3
+Text GLabel 4785 5510 2    50   Input ~ 0
+ROW4
+Text GLabel 4785 5610 2    50   Input ~ 0
+ROW5
+Text GLabel 4785 5710 2    50   Input ~ 0
+ROW6
+Connection ~ 8620 5630
+$Comp
+L MX_Alps_Hybrids:MX-1.75U MX67
+U 1 1 5CCE5F08
+P 8445 5655
+F 0 "MX67" H 8531 5872 60  0000 C CNN
+F 1 "MX-1.75U" H 8531 5798 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U" H 8420 5630 60  0001 C CNN
+F 3 "" H 8420 5630 60  0001 C CNN
+	1    8445 5655
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8570 7010 8570 5735
+Wire Wire Line
+	8570 5735 8695 5735
+Wire Wire Line
+	8695 5735 8695 5540
+Wire Wire Line
+	8695 5540 8570 5540
+Wire Wire Line
+	8570 5540 8570 4285
+Connection ~ 8570 4285
 $EndSCHEMATC
