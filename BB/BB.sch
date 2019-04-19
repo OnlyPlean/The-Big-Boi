@@ -1181,7 +1181,7 @@ F 1 "MX-2.25U" H 8561 6488 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-2.25U" H 8450 6320 60  0001 C CNN
 F 3 "" H 8450 6320 60  0001 C CNN
 	1    8475 6345
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D86
@@ -4176,4 +4176,6 @@ Wire Wire Line
 Wire Wire Line
 	8570 5540 8570 4285
 Connection ~ 8570 4285
+Wire Wire Line
+	9790 6320 9785 6320
 $EndSCHEMATC
