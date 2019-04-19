@@ -4084,17 +4084,6 @@ Wire Wire Line
 	4185 2025 4185 2110
 Wire Wire Line
 	4085 2025 4085 2110
-$Comp
-L MCU_Microchip_AVR:AT90USB1286-AU U1
-U 1 1 5CAEA573
-P 4185 4110
-F 0 "U1" H 4185 2021 50  0000 C CNN
-F 1 "AT90USB1286-AU" H 4185 1930 50  0000 C CNN
-F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 4185 4110 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 4185 4110 50  0001 C CNN
-	1    4185 4110
-	1    0    0    -1  
-$EndComp
 Text GLabel 4785 4410 2    50   Input ~ 0
 COL0
 Text GLabel 4785 4510 2    50   Input ~ 0
@@ -4178,4 +4167,15 @@ Wire Wire Line
 Connection ~ 8570 4285
 Wire Wire Line
 	9790 6320 9785 6320
+$Comp
+L MCU_Microchip_AVR:AT90USB1286-AU U1
+U 1 1 5CAEA573
+P 4185 4110
+F 0 "U1" H 4185 2021 50  0000 C CNN
+F 1 "AT90USB1286-AU" H 4185 1930 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 4185 4110 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 4185 4110 50  0001 C CNN
+	1    4185 4110
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
